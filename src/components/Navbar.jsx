@@ -6,7 +6,7 @@ import {FaUserFriends,FaWallet} from 'react-icons/fa';
 import {MdFavorite,MdHelp} from 'react-icons/md';
 const Navbar=()=>{
     const [nav,setNav]=useState(false);
-
+    const [devpick,setDevPick]=useState(true);
 
     return(
         <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4">
@@ -19,8 +19,9 @@ const Navbar=()=>{
                     Best<span className="font-bold"> Eats</span>
                 </h1>
                 <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
-                    <p className="bg-black text-white rounded-full p-2">Delivery</p>
-                    <p className="p-2">Pickup</p>
+                    
+                    <p onClick={()=>setDevPick(!devpick)} className={devpick ? "bg-black text-white rounded-full p-2 cursor-pointer duration-300" : "p-2 cursor-pointer"}>Delivery</p>
+                    <p onClick={()=>setDevPick(!devpick)} className={devpick ? "p-2 cursor-pointer" : "bg-black text-white rounded-full p-2 cursor-pointer duration-300"}>Pickup</p>
                 </div>
             </div>
             {/**search input */}
