@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tienda_comida_reactjs_tailwind/static/css/main.8318e67f.css",
+    "main.js": "/tienda_comida_reactjs_tailwind/static/js/main.93ed6328.js",
+    "index.html": "/tienda_comida_reactjs_tailwind/index.html",
+    "main.8318e67f.css.map": "/tienda_comida_reactjs_tailwind/static/css/main.8318e67f.css.map",
+    "main.93ed6328.js.map": "/tienda_comida_reactjs_tailwind/static/js/main.93ed6328.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8318e67f.css",
+    "static/js/main.93ed6328.js"
+  ]
+}
